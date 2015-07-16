@@ -9,7 +9,7 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
-
+/*
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
@@ -58,6 +58,7 @@ app.use(function(err, req, res, next) {
 
 
 module.exports = app;
+*/
 
 // Begin SendGrid code
 var sendgrid  = require('sendgrid')('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');
